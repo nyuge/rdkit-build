@@ -24,8 +24,6 @@ RUN apt-get update \
         cmake \
         curl \
         gfortran \
-        git \
-        graphviz \
         gzip \
 	libboost-dev \
 	libboost-system-dev \

@@ -4,7 +4,8 @@ Concise docker image with RDKit source build
 ## A motivation
 What do you feel when you use RDKit with python in docker?
 I always feel confused in situations in which it is impossible to achieve both the customizability of environments and the smallness of docker containers.
-I want to use python of the specific version in small docker container (not in Anaconda), therefore, this source was developed.
+
+I want to use python of the specific version in small docker container (not in Anaconda), so this source was developed.
 
 ## Basic environments
 + OS: ubuntu16.04 (as the upstream image)
@@ -33,6 +34,6 @@ WORKDIR $HOME/workspace/
 
 ## Reference
 + [RDKit repository](https://github.com/rdkit/rdkit): The cheminformatics and machine-learning soft ware
-+ [Chainer Chemistry: A Library for Deep Learning in Biology and Chemistry](https://github.com/pfnet-research/chainer-chemistry)
++ [Chainer Chemistry repository](https://github.com/pfnet-research/chainer-chemistry): The library for deep learning in biology and chemistry
 + [Dockerfile for building RDKit](https://github.com/InformaticsMatters/rdkit/tree/Release_2017_03_1): The docker image with python2.7 and source-built RDKit
 + [alpine-rdkit](https://github.com/kubor/alpine-rdkit): The docker image with Miniconda3 and binary-installed RDKit
